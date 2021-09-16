@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="index+Lavini.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="encabezado">
+        <img
+          src="./multimedia para entregas/elegirconocerte-removebg-preview.png"
+          alt="elegirconocerte"
+          width="250"
+          height="250"
+        />
+      </div>
+      <nav class="header__menu">
+        <ul>
+          <li><a href="index.html"> Inicio</a></li>
+          <li><a href="Historia+Lavini.html"> Historia</a></li>
+          <li><a href="Blog-noticias+Lavini.html"> Blog y Noticias</a></li>
+          <li><a href="Servicios+Lavini.html"> Servicios</a></li>
+          <li><a href="Contacto+Lavini.html"> Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="contacto">
+      <h2>Contacto</h2>
+      <p>Escribime por consultas o turnos al +54 351 330 6148</p>
+      <p>Por redes sociales, podes seguirme y hacer consultas en:</p>
+      <p>
+        <a href="https://www.instagram.com/elegirconocerte/" target="_blank"
+          >Instagram</a
+        >
+      </p>
+      <p>
+        <a href="https://www.facebook.com/elegirconocerte" target="_blank"
+          >Facebook</a
+        >
+      </p>
+      <p>O podes dejarme tu mensaje en el siguiente formulario de contacto!:</p>
+
+      <form action="enviar.php" method="GET">
+        <fieldset>
+          <legend>Formulario de Contacto</legend>
+
+          <label for="nombre"> Nombre y Apellido</label>
+          <input type="text" id="nombre" required />
+          <br /><br />
+
+          <label for="email"> Email</label>
+          <input type="email" id="email" required />
+          <br /><br />
+
+          <label for="pass">Telefono</label>
+          <input type="phone" name="phone" id="telefono" required />
+          <br /><br />
+
+          <p>Interesado en</p>
+          <input type="radio" name="Servicio" /> Orientacion Vocacional
+          <input type="radio" name="Servicio" id="" /> Psicoterapia <br /><br />
+
+          ¿Como conociste la pagina?
+          <label for="Opciones"></label>
+          <select name="opciones" id="conocido">
+            <option value="Instagram" selected>Instagram</option>
+            <option value="Facebook">Facebook</option>
+            <option value="referido">Referido</option>
+            <option value="Otro">Otro</option>
+            <br /><br />
+          </select>
+          <p>
+            <input type="checkbox" name="acepta" id="terms" /> Quiero que me
+            contacten para mas informacion
+
+            <br /><br />
+
+            <input type="submit" value="Enviar Ahora" />
+            <input type="reset" value="Limpiar" />
+          </p>
+        </fieldset>
+      </form>
+    </section>
+    <footer>
+      <p>
+        <a href="index.html" target="index">
+          <img
+            class="Logo-Inicio"
+            src="./multimedia para entregas/elegirconocerte-removebg-preview.png"
+            alt="logo-elegirconocerte"
+            width="150"
+            height="150"
+        /></a>
+      </p>
+      <a href="https://www.instagram.com/elegirconocerte/" target="_blank">
+        <img
+          src="./multimedia para entregas/logo instagram.png"
+          alt="instagram-elegirconocerte"
+          width="20"
+          height="20"
+        />
+      </a>
+      <a href="https://www.facebook.com/elegirconocerte" target="_blank">
+        <img
+          src="./multimedia para entregas/png-clipart-facebook-logo-computer-icons-facebook-logo-facebook-300x300-removebg-preview.png"
+          alt="facebook-elegirconocerte"
+          width="20"
+          height="20"
+        />
+      </a>
+      <p>Elegir Conocerte &#174; - 2021</p>
+      <p>Desarrollado por Nico Lavini</p>
+    </footer>
+  </body>
+</html>
